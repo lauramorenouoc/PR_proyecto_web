@@ -1368,6 +1368,13 @@ button,
     .cuadricula-obras,.accesos-cuadricula{
         grid-template-columns: 1fr;
     }
+    .accesos-cuadrícula { /*son los de abajo del todo*/
+        grid-template-columns: 1fr;
+    }
+
+    .tarjeta-acceso {
+        width: 100%;
+    }
 
     .grid-categorias,
     .grid-herramientas,
