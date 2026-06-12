@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es"><!-- Metadatos generales, fuentes externas y hoja de estilos --> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas & Code | Exposition</title> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="assets/faicon.svg">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a> <!-- Salto de accesibilidad -->
+
+    <header class="main-header"> <!-- Header + menú de navegación, logo,etc.-->
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="Canvas & Code">
+                </a>
+            </div>
+            <button class="menu-toggle" type="button" aria-label="Abrir menú"> ☰ </button><!-- Botón móvil -->
+            <nav class="main-nav" aria-label="Navegación principal">
+                <ul>
+                    <li><a href="sobre-nosotros.html" class="nav-link">About</a></li>
+                    <li><a href="comunidad.html" class="nav-link">Community</a></li>
+                    <li><a href="exposicion.html" class="nav-link active">Exposition</a></li>
+                    <li><a href="#" class="nav-link">Shop</a></li>
+                    <li><a href="index.html" class="nav-link">ES</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido-principal"> <!-- Contenido principal de la página -->
+
+        <section class="expo-top">
+            <div class="contenedor"> <!-- Header de la exposición y selector de obras -->
+                <h1>INTERACTIVE ART</h1>
+                <p>Explore, experiment and reinterpret the works modifying their parameters in real time.</p>
+
+                <div class="selector">
+                    <h2>CHOOSE YOUR WORK</h2>
+
+                    <div class="expo-carrusel">
+                        <button type="button" class="flecha-mini expo-anterior">‹</button>
+
+                        <div class="expo-carrusel-ventana">
+                            <div class="expo-carrusel-track">
+                                <img src="assets/work-1.png" alt="Obra 1" class="obra-miniatura seleccionada">
+                                <img src="assets/work-2.png" alt="Obra 2" class="obra-miniatura">
+                                <img src="assets/work-3.png" alt="Obra 3" class="obra-miniatura">
+                                <img src="assets/artwork-3.png" alt="Obra 4" class="obra-miniatura">
+                                <img src="assets/hero-face-glitch.png" alt="Obra 5" class="obra-miniatura">
+                            </div>
+                        </div>
+
+                        <button type="button" class="flecha-mini expo-siguiente">›</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="expo-main contenedor"> <!-- Zona principal con obra y parámetros -->
+            <div class="expo-obra">
+                <div class="obra">
+                    <img src="assets/canvaalgoritmo.png" alt="Obra de arte generativa">
+                </div>
+
+                <div class="acciones">
+                    <button type="button">Save version</button>
+                    <button type="button">Share</button>
+
+                    <div class="before-after">
+                        <button type="button">Before</button>
+                        <span>|</span>
+                        <button type="button">After</button>
+                    </div>
+                </div>
+            </div>
+
+            <form class="controles">
+                <button type="button" class="boton-restablecer">◎ REESTABLISH EVERYTHING</button> <!-- Botón reestablecer -->
+
+                <div class="cabecera-panel">
+                    <h2>ADJUST THE PARAMETERS</h2>
+                    <p>Modify the values and observe the changes in the work</p>
+                </div>
+
+                <div class="grupo-controles">
+                    <h3>1. Visual parameters</h3>
+
+                    <div class="control-fila">
+                        <label for="color">Color (Hue)</label>
+                        <input type="range" id="color" min="0" max="100" value="70">
+                    </div>
+
+                    <div class="control-fila">
+                        <label for="saturation">Saturation</label>
+                        <input type="range" id="saturation" min="0" max="100" value="85">
+                    </div>
+
+                    <div class="control-fila">
+                        <label for="contrast">Contrast</label>
+                        <input type="range" id="contrast" min="0" max="100" value="50">
+                    </div>
+
+                    <div class="control-fila">
+                        <label for="brightness">Brightness</label>
+                        <input type="range" id="brightness" min="0" max="100" value="80">
+                    </div>
+                </div>
+
+                <div class="grupo-controles">
+                    <h3>2. Code/generation</h3>
+
+                    <div class="control-fila">
+                        <label for="algorithm">Algorithm</label>
+                        <input type="range" id="algorithm" min="1" max="5" value="2">
+                    </div>
+
+                    <div class="control-fila">
+                        <label for="seed">Seed</label>
+                        <input type="range" id="seed" min="0" max="100" value="45">
+                    </div>
+
+                    <div class="control-fila">
+                        <label for="density">Density</label>
+                        <input type="range" id="density" min="0" max="100" value="70">
+                    </div>
+                </div>
+
+                <div class="grupo-controles">
+                    <h3>3. Interaction</h3>
+
+                    <div class="control-fila">
+                        <label for="speed">Animation speed</label>
+                        <input type="range" id="speed" min="0" max="100" value="35">
+                    </div>
+
+                    <div class="control-fila">
+                        <label for="loop">Loop</label>
+                        <input type="checkbox" id="loop" checked>
+                    </div>
+                </div>
+
+                <div class="botones">
+                    <button type="submit">APPLY CHANGES</button>
+                    <button type="reset">RESET</button>
+                    <button type="button">SEE CODE</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="saved-versions contenedor"> <!-- Versiones guardadas de la obra -->
+            <h2>SAVED VERSIONS</h2>
+
+            <div class="saved-grid">
+                <div class="version-card seleccionada">
+                    <img src="assets/brillo.png" alt="Brightness">
+                    <p>Brightness</p>
+                </div>
+
+                <div class="version-card">
+                    <img src="assets/colorshift.png" alt="Color Shift">
+                    <p>Color Shift</p>
+                </div>
+
+                <div class="version-card">
+                    <img src="assets/densidad.png" alt="Density high">
+                    <p>Density high</p>
+                </div>
+
+                <div class="version-card">
+                    <img src="assets/bajocontraste.png" alt="Contrast low">
+                    <p>Contrast low</p>
+                </div>
+
+                <div class="version-card">
+                    <img src="assets/bluemoody.png" alt="Blue moody">
+                    <p>Blue moody</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="about-work contenedor"> <!-- Información de la obra-->
+            <details>
+                <summary>
+                    <span>ABOUT THE WORK</span>
+                    <span class="cruz">+</span>
+                </summary>
+
+                <p>
+                    This work investigates the interaction between human intuition and machine logic.
+                    Using generative systems, the piece continuously reshapes itself through data,
+                    randomness and interaction.
+                </p>
+            </details>
+        </div>
+
+        <section class="buy-work"> <!-- Comprar obra-->
+            <div class="contenedor buy-contenido">
+                <div>
+                    <h2>Do you like the work?</h2>
+                    <p>Buy it, or one of its altered outputs for below artists and the community grow.</p>
+                </div>
+
+                <a href="#" class="boton boton-naranja">BUY THE WORK</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer"> <!-- Footer igual q el resto-->
+        <div class="container footer-grid">
+            <div class="footer-legal">
+                <p>Legal Notice<br>Cookie Policy<br>Privacy Policy<br>Social Media Policy<br>Terms and Conditions</p>
+                <p>&copy; 2026 Canvas &amp; Code</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow us</h3>
+                <div class="redes-sociales">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Sitemap</h3>
+                <p>About<br>Community<br>Exposition<br>Shop</p>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p><a href="mailto:hello@canvascode.art">hello@canvascode.art</a></p>
+            </div>
+
+            <div class="footer-huella">
+                <i class="fa-solid fa-fingerprint"></i>
+            </div>
+        </div>
+    </footer>
+<!-- JavaScript  para mover el carrusel y marcar la obra seleccionada -->
+    <script>
+        let posicionExpo = 0;  
+
+        const trackExpo = document.querySelector(".expo-carrusel-track");
+        const anteriorExpo = document.querySelector(".expo-anterior");
+        const siguienteExpo = document.querySelector(".expo-siguiente");
+        const obrasExpo = document.querySelectorAll(".obra-miniatura");
+
+        siguienteExpo.onclick = function() {
+            if (posicionExpo < obrasExpo.length - 3) {
+                posicionExpo = posicionExpo + 1;
+                moverExpo();
+            }
+        }
+
+        anteriorExpo.onclick = function() {
+            if (posicionExpo > 0) {
+                posicionExpo = posicionExpo - 1;
+                moverExpo();
+            }
+        }
+
+        function moverExpo() {
+            const ancho = obrasExpo[0].offsetWidth + 36;
+            trackExpo.style.transform = "translateX(-" + posicionExpo * ancho + "px)";
+        }
+
+        obrasExpo.forEach(function(obra) {
+            obra.onclick = function() {
+                obrasExpo.forEach(function(otra) {
+                    otra.classList.remove("seleccionada");
+                });
+
+                obra.classList.add("seleccionada");
+            }
+        });
+                const botonMenu = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.main-nav');
+
+        botonMenu.addEventListener('click', function () {
+            menu.classList.toggle('activo');
+        });
+    </script>
+
+</body>
+</html>

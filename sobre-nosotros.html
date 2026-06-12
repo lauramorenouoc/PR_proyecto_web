@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Metadatos generales, fuentes externas y hoja de estilos -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us | Canvas & Code</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="assets/faicon.svg">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body> <!-- Salto de accesibilidad -->
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <header class="main-header"> <!-- Header + menú de navegación, logo,etc.-->
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="Canvas & Code">
+                </a>
+            </div>
+            <button class="menu-toggle" type="button" aria-label="Abrir menú"> ☰ </button><!-- Botón móvil -->
+            <nav class="main-nav" aria-label="Navegación principal"> 
+                <ul>
+                    <li><a href="sobre-nosotros.html" class="nav-link active">About</a></li>
+                    <li><a href="comunidad.html" class="nav-link">Community</a></li>
+                    <li><a href="exposicion.html" class="nav-link">Exposition</a></li>
+                    <li><a href="#" class="nav-link">Shop</a></li>
+                    <li><a href="index.html" class="nav-link">ES</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido-principal"> <!-- Contenido principal de la página -->
+
+        <section class="seccion-hero-interna hero-about" aria-labelledby="titulo-sobre-hero"> <!-- Hero about us -->
+            <img src="assets/hero-sobre-nosotros.png" alt="Abstract digital space" class="hero-about-img">
+
+            <div class="contenedor">
+                <p class="hero-etiqueta">ABOUT</p>
+                <h1 id="titulo-sobre-hero" class="hero-titulo-interno">CANVAS &amp; CODE</h1>
+            </div>
+        </section>
+
+        <section class="seccion-mision" aria-labelledby="titulo-mision"> <!--Misión del festival-->
+            <div class="contenedor">
+                <p class="etiqueta-seccion">OUR MISSION</p>
+                <h2 id="titulo-mision" class="titulo-bloque">
+                    Canvas &amp; Code presents AI not as a replacement for artists but as a creative collaborator.
+                </h2>
+                <p class="texto-bloque">
+                    The festival explores how algorithms and human creativity can work together
+                    to create new forms of generative art.
+                </p>
+            </div>
+        </section>
+
+        <section class="seccion-proceso" aria-labelledby="titulo-proceso"> <!--Proceso de arte-->
+            <div class="cabecera-proceso">
+                <p class="etiqueta-sub">HOW WE WORK</p>
+                <h2 id="titulo-proceso" class="titulo-proceso-central">OUR CREATIVE PROCESS</h2>
+            </div>
+
+            <div class="contenedor">
+                <div class="flujo-proceso">
+                    <div class="paso-proceso">
+                        <div class="texto-paso">
+                            <h3>HUMAN ARTIST</h3>
+                            <p>Defines concept</p>
+                        </div>
+
+                        <img src="assets/icon-human-artist.svg" alt="" class="icono-proceso">
+                    </div>
+
+                    <div class="flecha-flujo">→</div>
+
+                    <div class="paso-proceso">
+                        <div class="texto-paso">
+                            <h3>AI SYSTEM</h3>
+                            <p>Generates visual variations</p>
+                        </div>
+
+                        <img src="assets/icon-ai-system.svg" alt="" class="icono-proceso">
+                    </div>
+
+                    <div class="flecha-flujo">→</div>
+
+                    <div class="paso-proceso">
+                        <div class="texto-paso">
+                            <h3>GENERATIVE PROCESS</h3>
+                            <p>The algorithm changes design</p>
+                        </div>
+
+                        <img src="assets/icon-generative-process.svg" alt="" class="icono-proceso">
+                    </div>
+
+                    <div class="flecha-flujo">→</div>
+
+                    <div class="paso-proceso">
+                        <div class="texto-paso">
+                            <h3>ARTIST</h3>
+                            <p>Curates final result</p>
+                        </div>
+
+                        <img src="assets/icon-artist.svg" alt="" class="icono-proceso">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-filosofia"> <!--Filosofia del festival-->
+            <img src="assets/nuestrafilosofia.png" alt="Abstract digital waves" class="imagen-filosofia">
+
+            <div class="contenedor">
+                <p class="hero-etiqueta">OUR PHILOSOPHY</p>
+                <h2 class="titulo-filosofia-texto">CREATIVITY HAS NO LIMITS</h2>
+                <p class="sub-filosofia">
+                    Technology is just a tool.<br>
+                    Human imagination makes it art.
+                </p>
+            </div>
+        </section>
+
+        <section class="seccion-comunidad-about"> <!-- Comunidad-->
+            <div class="contenedor">
+                <h2>OUR COMMUNITY</h2>
+
+                <p>
+                    Canvas &amp; Code brings together artists, designers and programmers interested in
+                    generative art and artificial intelligence.
+                    <br>
+                    Through workshops, events and discussions, the community creates a space to share
+                    ideas, learn new tools and explore the creative possibilities of technology together.
+                </p>
+
+                <div class="accesos-cuadrícula"> <!--Accesos directos-->
+                    <a href="exposicion.html" class="tarjeta-acceso">
+                        <h3>EXPOSITION</h3>
+                        <span class="flecha-tarjeta">→</span>
+                        <img src="assets/creative_coding_black.svg" alt="" class="icono-exposition">
+                    </a>
+
+                    <a href="comunidad.html" class="tarjeta-acceso">
+                        <h3>COMMUNITY</h3>
+                        <span class="flecha-tarjeta">→</span>
+                        <img src="assets/community_icon_corregido.svg" alt="" class="icono-community">
+                    </a>
+
+                    <a href="#" class="tarjeta-acceso">
+                        <h3>SHOP</h3>
+                        <span class="flecha-tarjeta">→</span>
+                        <img src="assets/shop_icon_asa_mas_ancha.svg" alt="" class="icono-shop">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer"> <!--Footer con redes sociales, sitemap y cookies-->
+        <div class="container footer-grid"> 
+            <div class="footer-legal">
+                <p>Legal Notice<br>Cookie Policy<br>Privacy Policy<br>Social Media Policy<br>Terms and Conditions</p>
+                <p>&copy; 2026 Canvas &amp; Code</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow us</h3>
+                <div class="redes-sociales">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Sitemap</h3>
+                <p>About<br>Community<br>Exposition<br>Shop</p>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p><a href="mailto:hello@canvascode.art">hello@canvascode.art</a></p>
+            </div>
+
+            <div class="footer-huella">
+                <i class="fa-solid fa-fingerprint"></i>
+            </div>
+        </div>
+    </footer>
+     <script>
+        const botonMenu = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.main-nav');
+
+        botonMenu.addEventListener('click', function () {
+            menu.classList.toggle('activo');
+        });
+    </script>
+    
+</body>
+</html>

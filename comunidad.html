@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Metadatos generales, fuentes externas y hoja de estilos -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community | Canvas & Code</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg" href="assets/faicon.svg">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body><!-- Salto de accesibilidad -->
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+
+    <header class="main-header"> <!-- Header + menú de navegación, logo,etc.-->
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="Canvas & Code">
+                </a>
+            </div>
+<button class="menu-toggle" type="button" aria-label="Abrir menú"> ☰ </button><!-- Botón móvil -->
+            <nav class="main-nav" aria-label="Navegación principal">
+                <ul>
+                    <li><a href="sobre-nosotros.html" class="nav-link">About</a></li>
+                    <li><a href="comunidad.html" class="nav-link active">Community</a></li>
+                    <li><a href="exposicion.html" class="nav-link">Exposition</a></li>
+                    <li><a href="#" class="nav-link">Shop</a></li>
+                    <li><a href="index.html" class="nav-link">ES</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido-principal"> <!-- Contenido principal de la página -->
+
+        <section class="hero-comunidad">
+            <img src="assets/nuestrafilosofia.png" alt="" class="hero-comunidad-img"> <!-- Hero comunidad --> 
+
+            <div class="contenedor hero-comunidad-contenido">
+                <p class="hero-etiqueta">COMMUNITY</p>
+                <h1>CANVAS <span>&amp;</span> CODE</h1>
+                <p>Explore, share and learn about generative art, AI and creative code</p>
+
+                <div class="hero-comunidad-botones">
+                    <a href="exposicion.html" class="boton">EXPLORE →</a>
+                    <a href="#" class="boton boton-naranja">CREATE A POST →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-categorias contenedor"> <!-- Accesos rápidos --> 
+            <h2>CATEGORIES</h2>
+
+            <div class="grid-categorias">
+                <article class="tarjeta-categoria">
+                    <h3>GENERATIVE ART</h3>
+                    <img src="assets/generativeart.svg" alt="" class="icono-generative">
+                </article>
+
+                <article class="tarjeta-categoria">
+                    <h3>APPLIED AI</h3>
+                    <img src="assets/icono_red_creative_coding.svg" alt="" class="icono-applied">
+                </article>
+
+                <article class="tarjeta-categoria">
+                    <h3>CREATIVE CODING</h3>
+                    <img src="assets/CREATIVE-CODING.svg" alt="" class="icono-creative">
+                </article>
+
+                <article class="tarjeta-categoria">
+                    <h3>EXPERIMENTATION</h3>
+                    <img src="assets/icono_experimentacion_blanco.svg" alt="" class="icono-experimentation">
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion-comunidad-main contenedor"> <!--Foro de debate--> 
+            <div class="columna-debates">
+                <h2>RECENT DISCUSSIONS</h2>
+
+                <div class="lista-debates comunidad-lista">
+                    <article class="item-debate">
+                        <div class="avatar-usuario"><i class="fa-solid fa-user"></i></div>
+                        <h3>New post: Is it possible to...?</h3>
+                    </article>
+
+                    <article class="item-debate">
+                        <div class="avatar-usuario"><i class="fa-solid fa-user"></i></div>
+                        <h3>Training AI models for creative projects</h3>
+                    </article>
+
+                    <article class="item-debate">
+                        <div class="avatar-usuario"><i class="fa-solid fa-user"></i></div>
+                        <h3>Share your latest p5.js sketches!</h3>
+                    </article>
+
+                    <article class="item-debate">
+                        <div class="avatar-usuario"><i class="fa-solid fa-user"></i></div>
+                        <h3>Best resources in creative coding</h3>
+                    </article>
+                </div>
+            </div>
+
+            <aside class="columna-trending">
+                <h2>TRENDING</h2> <!--Obras trending--> 
+
+                <div class="grid-tendencias">
+                    <img src="assets/arte 1-(3).png" alt="obra hecha con algoritmo">
+                    <img src="assets/hero-face-glitch.png" alt="cara con glitch">
+                    <img src="assets/hombre-esfera-azul.png" alt="hombre con glitch de esfera">
+                    <img src="assets/canvaalgoritmo.png" alt="dibujo abstracto algoritmo">
+                </div>
+            </aside>
+        </section>
+
+        <section class="seccion-herramientas contenedor">
+            <h2>FEATURED TOOLS</h2> <!--Herramientas--> 
+
+            <div class="grid-herramientas">
+                <article class="tarjeta-herramienta">
+                    <h3>p5.js</h3>
+                    <p>Javascript library for creative coding.</p>
+                    <img src="assets/icons/p5.png" alt="">
+                </article>
+
+                <article class="tarjeta-herramienta">
+                    <h3>Tone.js</h3>
+                    <p>Web audio framework for interactive sound.</p>
+                    <img src="assets/icons/tone.png" alt="">
+                </article>
+
+                <article class="tarjeta-herramienta">
+                    <h3>Shader Park</h3>
+                    <p>Create and share 3D shaders.</p>
+                    <img src="assets/icons/shaderpark.png" alt="">
+                </article>
+
+                <article class="tarjeta-herramienta">
+                    <h3>Runway ML</h3>
+                    <p>AI tools for creative projects.</p>
+                    <img src="assets/icons/runway.png" alt="">
+                </article>
+            </div>
+        </section>
+ 
+        <section class="seccion-newsletter"> <!--Banner news--> 
+            <div class="contenedor newsletter-contenedor">
+                <div class="newsletter-info">
+                    <h2>Join our community</h2>
+                    <p>Subscribe to our newsletter and stay up to date.</p>
+                </div>
+
+                <form class="grupo-input">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit" class="boton-suscribirse">SUBSCRIBE</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer"> <!-- Footer--> 
+        <div class="container footer-grid">
+            <div class="footer-legal">
+                <p>Legal Notice<br>Cookie Policy<br>Privacy Policy<br>Social Media Policy<br>Terms and Conditions</p>
+                <p>&copy; 2026 Canvas &amp; Code</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow us</h3>
+                <div class="redes-sociales">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Sitemap</h3>
+                <p>About<br>Community<br>Exposition<br>Shop</p>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p><a href="mailto:hello@canvascode.art">hello@canvascode.art</a></p>
+            </div>
+
+            <div class="footer-huella">
+                <i class="fa-solid fa-fingerprint"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

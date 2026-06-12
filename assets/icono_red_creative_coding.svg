@@ -1,0 +1,25 @@
+<svg width="1200" height="1200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icono tipo red/molécula -->
+
+  <!-- Círculo superior -->
+  <circle cx="100" cy="62" r="26" stroke="white" stroke-width="4"/>
+  <circle cx="100" cy="62" r="22" stroke="white" stroke-width="1.8"/>
+
+  <!-- Círculo inferior izquierdo -->
+  <circle cx="58" cy="126" r="21" stroke="white" stroke-width="4"/>
+  <circle cx="58" cy="126" r="17" stroke="white" stroke-width="1.8"/>
+
+  <!-- Círculo inferior derecho -->
+  <circle cx="142" cy="126" r="18" stroke="white" stroke-width="4"/>
+  <circle cx="142" cy="126" r="14" stroke="white" stroke-width="1.8"/>
+
+  <!-- Conectores -->
+  <line x1="86" y1="84" x2="69" y2="108" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <line x1="86" y1="84" x2="69" y2="108" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+
+  <line x1="114" y1="84" x2="131" y2="108" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <line x1="114" y1="84" x2="131" y2="108" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Cuadrado naranja -->
+  <rect x="118" y="42" width="22" height="22" fill="#FF5A1F" stroke="white" stroke-width="1.5"/>
+</svg>

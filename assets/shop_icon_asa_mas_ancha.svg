@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 200 200" fill="none">
+  <g stroke="#2E2E2E" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- cuerpo de la bolsa -->
+    <path d="M70 84 H130"/>
+    <path d="M70 84 V150 H130 V84"/>
+    <!-- asa más ancha -->
+    <path d="M80 86 V71 C80 51 91 42 100 42 C109 42 120 51 120 71 V86" stroke-linecap="round"/>
+  </g>
+  <rect x="65" y="102" width="10" height="14" fill="#2F5BFF"/>
+  <rect x="127" y="79" width="16" height="12" fill="#FF7A2F"/>
+  <rect x="124" y="145" width="16" height="12" fill="#FF7A2F"/>
+</svg>

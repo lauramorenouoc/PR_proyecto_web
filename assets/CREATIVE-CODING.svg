@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.88 78.75">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #f4f4f2;
+        stroke-linecap: square;
+        stroke-width: 3.75px;
+      }
+
+      .cls-3 {
+        fill: #ff5b00;
+      }
+
+      .cls-4 {
+        fill: #0b45ff;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g class="cls-1">
+      <line class="cls-2" x1="3" y1="1.88" x2="25.5" y2="1.88"/>
+      <line class="cls-2" x1="3" y1="1.88" x2="3" y2="24.38"/>
+      <line class="cls-2" x1="78" y1="1.88" x2="55.5" y2="1.88"/>
+      <line class="cls-2" x1="78" y1="1.88" x2="78" y2="24.38"/>
+      <line class="cls-2" x1="3" y1="76.88" x2="25.5" y2="76.88"/>
+      <line class="cls-2" x1="3" y1="76.88" x2="3" y2="54.38"/>
+      <line class="cls-2" x1="78" y1="76.88" x2="55.5" y2="76.88"/>
+      <line class="cls-2" x1="78" y1="76.88" x2="78" y2="54.38"/>
+      <rect class="cls-4" y="69.38" width="9" height="9"/>
+      <rect class="cls-3" x="70.5" y="18.38" width="9" height="9"/>
+    </g>
+  </g>
+</svg>

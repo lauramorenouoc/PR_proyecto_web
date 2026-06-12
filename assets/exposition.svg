@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.75 72">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #0b45ff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-linecap: square;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        stroke: #f4f4f2;
+      }
+
+      .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        stroke: #ff5b00;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g class="cls-4">
+      <rect class="cls-2" x="1.5" y="1.5" width="15" height="15"/>
+      <rect class="cls-2" x="1.5" y="28.5" width="15" height="15"/>
+      <rect class="cls-2" x="1.5" y="55.5" width="15" height="15"/>
+      <rect class="cls-2" x="28.5" y="1.5" width="15" height="15"/>
+      <rect class="cls-2" x="28.5" y="28.5" width="15" height="15"/>
+      <rect class="cls-1" x="28.5" y="55.5" width="15" height="15"/>
+      <rect class="cls-2" x="55.5" y="1.5" width="15" height="15"/>
+      <rect class="cls-2" x="55.5" y="28.5" width="15" height="15"/>
+      <rect class="cls-2" x="55.5" y="55.5" width="15" height="15"/>
+      <polyline class="cls-3" points="63 3 74.25 3 74.25 15"/>
+    </g>
+  </g>
+</svg>

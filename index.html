@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  <!-- Metadatos generales, fuentes externas y hoja de estilos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas & Code | Art and AI festival</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="assets/faicon.svg">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body> <!-- Salto de accesibilidad -->
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <header class="main-header">  <!-- Header + menú de navegación, logo,etc.-->
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="Canvas & Code">
+                </a>
+            </div>
+            <button class="menu-toggle" type="button" aria-label="Abrir menú"> ☰ </button> <!--botón móvil-->
+
+            <nav class="main-nav" aria-label="Navegación principal">
+                <ul>
+                    <li><a href="sobre-nosotros.html" class="nav-link">About</a></li>
+                    <li><a href="comunidad.html" class="nav-link">Community</a></li>
+                    <li><a href="exposicion.html" class="nav-link">Exposition</a></li>
+                    <li><a href="#" class="nav-link">Shop</a></li>
+                    <li><a href="index.html" class="nav-link">ES</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido-principal"> <!-- Contenido principal de la página -->
+        <section class="seccion-hero" aria-labelledby="titulo-hero">
+            <div class="contenedor hero-contenedor">
+                <div class="hero-contenido">  <!-- Hero de la home-->
+                    <p class="hero-etiqueta">Digital chaos system &gt; Art &gt; Code &gt; AI</p>
+                    <h1 id="titulo-hero" class="hero-titulo">
+                        CANVAS <br>
+                        <span class="texto-acento">&amp;</span> <span class="texto-principal">CODE</span>
+                    </h1>
+                    <p class="hero-subtitulo">Explore the collaboration between artists and AI.</p>
+                    <a href="exposicion.html" class="boton boton-principal hero-boton">EXPLORE →</a>
+                </div>
+
+                <div class="hero-imagen-wrapper">
+                    <img src="assets/hero-face-glitch.png" alt="Retrato digital con efecto glitch azul y naranja" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-destacados contenedor" aria-labelledby="titulo-destacados">
+            <div class="cabecera-seccion">
+                <h2 id="titulo-destacados">Featured Artworks</h2>
+                <a href="exposicion.html" class="enlace-ver-todo">View All Artworks →</a>
+            </div>
+
+            <div class="carrusel-contenedor"> <!-- Carrusel de obras destacadas -->
+                <button class="carrusel-control anterior" type="button">‹</button>
+
+                <div class="carrusel-ventana">
+                    <div class="carrusel-track">
+                        <img src="assets/artwork1.jpg" alt="Composición geométrica abstracta">
+                        <img src="assets/artwork2.png" alt="Malla de datos fluida">
+                        <img src="assets/artwork3.png" alt="Ondas tridimensionales">
+                        <img src="assets/hero-face-glitch.png" alt="Cara digital glitch">
+                        <img src="assets/hombre-esfera-azul.png" alt="Persona observando esfera digital">
+                    </div>
+                </div>
+
+                <button class="carrusel-control siguiente" type="button">›</button>
+            </div>
+        </section>
+
+        <section class="seccion-sobre" aria-labelledby="titulo-sobre"> <!-- Enlace al about us-->
+            <div class="contenedor sobre-contenedor">
+                <div class="sobre-contenido">
+                    <p class="etiqueta-seccion">About the festival</p>
+                    <h2 id="titulo-sobre" class="titulo-seccion">WHERE ART MEETS CODE</h2>
+                    <p class="sobre-texto">
+                        Canvas &amp; Code explores the intersection of art, code, and artificial intelligence.
+                        A space where creativity becomes dynamic, interactive, and constantly evolving.
+                    </p>
+                    <a href="sobre-nosotros.html" class="boton boton-principal">LEARN MORE →</a>
+                </div>
+
+                <div class="sobre-visual">
+                    <img src="assets/hombre-esfera-azul.png" alt="Persona observando una esfera digital formada por datos">
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-accesos contenedor" aria-label="Secciones del festival"> <!-- accesos rápidos-->
+            <div class="accesos-cuadrícula">
+                <a href="exposicion.html" class="tarjeta-acceso">
+                    <h3>EXPOSITION</h3>
+                    <span class="flecha-tarjeta">→</span>
+                    <img src="assets/creative_coding_black.svg" alt="" class="icono-exposition">
+                </a>
+
+                <a href="comunidad.html" class="tarjeta-acceso">
+                    <h3>COMMUNITY</h3>
+                    <span class="flecha-tarjeta">→</span>
+                    <img src="assets/community_icon_corregido.svg" alt="" class="icono-community">
+                </a>
+
+                <a href="#" class="tarjeta-acceso">
+                    <h3>SHOP</h3>
+                    <span class="flecha-tarjeta">→</span>
+                    <img src="assets/shop_icon_asa_mas_ancha.svg" alt="" class="icono-shop">
+                </a>
+            </div>
+        </section>
+
+        <section class="seccion-newsletter" aria-labelledby="titulo-newsletter"> <!-- Banner news-->
+            <div class="contenedor sobre-contenedor">
+            <div class="contenedor newsletter-contenedor">
+                <div class="newsletter-info">
+                    <h2 id="titulo-newsletter">Join our community</h2>
+                    <p>Subscribe to our newsletter and stay up to date.</p>
+                </div>
+
+                <form class="newsletter-formulario" action="#" method="POST">
+                    <div class="grupo-input">
+                        <label for="input-email">Tu correo electrónico</label>
+                        <input type="email" id="input-email" name="email" placeholder="Your email">
+                        <button type="submit" class="boton-suscribirse">SUBSCRIBE</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer"> <!-- Footer + redes sociales + cookies-->
+        <div class="container footer-grid">
+            <div class="footer-legal">
+                <p>Legal Notice<br>Cookie Policy<br>Privacy Policy<br>Social Media Policy<br>Terms and Conditions</p>
+                <p>&copy; 2026 Canvas &amp; Code</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow us</h3>
+                <div class="redes-sociales">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Sitemap</h3>
+                <p>About<br>Community<br>Exposition<br>Shop</p>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p><a href="mailto:hello@canvascode.art">hello@canvascode.art</a></p>
+            </div>
+
+            <div class="footer-huella">
+                <i class="fa-solid fa-fingerprint"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- Javascript para carrusel y botón menú-->
+
+    <script>
+        let posicion = 0;
+
+        const track = document.querySelector(".carrusel-track");
+        const anterior = document.querySelector(".anterior");
+        const siguiente = document.querySelector(".siguiente");
+        const imagenes = document.querySelectorAll(".carrusel-track img");
+
+        siguiente.onclick = function() {
+            if (posicion < imagenes.length - 3) {
+                posicion++;
+                moverCarrusel();
+            }
+        }
+
+        anterior.onclick = function() {
+            if (posicion > 0) {
+                posicion--;
+                moverCarrusel();
+            }
+        }
+
+        function moverCarrusel() {
+            const ancho = imagenes[0].offsetWidth + 25;
+            track.style.transform = "translateX(-" + posicion * ancho + "px)";
+        }
+        const botonMenu = document.querySelector('.menu-toggle');  
+        const menu = document.querySelector('.main-nav');
+
+        botonMenu.addEventListener('click', function () { 
+            menu.classList.toggle('activo');
+        });
+    </script>
+</body>
+</html>

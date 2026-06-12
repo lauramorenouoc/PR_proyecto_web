@@ -1,0 +1,41 @@
+<svg width="1200" height="1200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M82 24
+       C82 18 86 14 92 14
+       H108
+       C114 14 118 18 118 24
+       V40
+       L146 118
+       C151 132 141 146 126 146
+       H74
+       C59 146 49 132 54 118
+       L82 40
+       V24Z"
+    stroke="white"
+    stroke-width="4"
+    stroke-linejoin="round"
+  />
+
+  <rect
+    x="87"
+    y="19"
+    width="26"
+    height="8"
+    rx="4"
+    stroke="white"
+    stroke-width="3"
+  />
+
+  <rect
+    x="95"
+    y="70"
+    width="12"
+    height="6"
+    rx="2"
+    fill="white"
+  />
+
+  <rect x="128" y="66" width="14" height="14" fill="#FF6A1A"/>
+  <rect x="72" y="98" width="12" height="12" fill="#FF6A1A"/>
+  <circle cx="114" cy="102" r="6" fill="#3B5BFF"/>
+</svg>
